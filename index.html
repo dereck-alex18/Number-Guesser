@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <title>Number Guesser</title>
+    <style>
+        .container{
+            border: 1px #ccc solid;
+        }
+        .game{
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <h1>Number Guesser</h1>
+            <p>Enter a number between <span class="min-number">1</span> and <span class="max-number">10</span></p>
+            <input type="number" placeholder="Enter a number" id="guess-input">
+            <input type="submit" id="guess-submit" value="Submit">
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
